@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>C'est quoi l'hébergement d'un site web ?</h3>
+              <p>
+              L'hébergement désigne, le fait de mettre à disposition des créateurs et propriétaires de sites web des espaces de stockage sur des serveurs sécurisés, afin que les sites en question puissent être accessibles sur Internet.
+              </p>
+            </div>
+            <div class="portfolio-description">
+              <h2>Quelle est la différence entre un site web et un serveur web ?</h2>
+              <p>
+                Un serveur web est un ordinateur hébergeant un ou plusieurs sites web. « Héberger » signifie que toutes les pages web et fichiers associés sont localement enregistrés sur cet ordinateur. À la demande d'un utilisateur, le serveur web transmettra la page web du site web hébergé au navigateur de l'utilisateur.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+{% endblock %}

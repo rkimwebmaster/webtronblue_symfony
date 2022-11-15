@@ -1,0 +1,33 @@
+			{% include '_partials/_en_tete.html.twig' %}
+			{% include '_partials/_nav_haut.html.twig' %}
+
+    </div>
+  </header><!-- End Header -->
+
+  {% block body %}
+
+  <!-- ======= Hero Section ======= -->
+    {% include '_partials/_hero.html.twig' %}
+  <!-- End Hero -->
+  
+  <main id="main">
+
+<!-- ======= Featured Formations  ======= -->
+    {% include '_partials/_formations.html.twig' %}
+<!-- End Featured Services Section -->
+
+<!-- ======= Featured Services   ======= -->
+    {% include '_partials/_services.html.twig' %}
+
+<!-- End Featured Services Section -->
+
+
+<!-- ======= Featured logiciels   ======= -->
+    {% include '_partials/_logiciels.html.twig' %}
+<!-- End Featured Services Section -->
+
+
+{% endblock %}
+
+<!-- ======= Pied de page    ======= -->
+    {% include '_partials/_footer.html.twig' %}

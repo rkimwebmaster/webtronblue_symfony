@@ -1,0 +1,27 @@
+<!-- Navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/">Accueil</a></li>
+          <li><a class="nav-link scrollto" href="https://127.0.0.1:8000/#featured-formation">Formations</a></li>
+          <li><a class="nav-link scrollto" href="https://127.0.0.1:8000/#featured-services">Services </a></li>
+          <li class="dropdown"><a href="#">Webtron<span class="text-warning">Ix</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class="bg-warning ">
+            <li><a class="text-danger " href="{{url('app_audit')}}">Audit informatique</a></li>
+              <li><a class="text-danger " href="{{url('app_web_hosting')}}">Web hosting   </a></li>
+              <li><a class="text-danger " href="{{url('app_hacking')}}">White hacking </a></li>              
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#">A propos de nous <i class="bi bi-chevron-down"></i></a>
+            <ul>
+            <li><a href="{{url('app_qsn')}}">Qui sommes-nous? </a></li>
+            <li><a href="{{url('app_partenaires')}}">Nos partenaires   </a></li>
+            <li><a href="{{url('app_gallerie')}}">Gallerie </a></li>              
+            <li><a href="https://127.0.0.1:8000/#featured-logiciels">Logiciels </a></li>              
+            </ul>
+          </li>
+          
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+<!-- /.navbar -->
