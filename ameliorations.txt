@@ -1,0 +1,30 @@
+LES Ameliorations webtronblue 
+
+
+interagir avec la bdd pour newsletter , contact, services, formation et logiciels 
+
+pour chaque formation et service mettre la page de detail en mode client 
+
+
+ihm admin pour inewsletter , contact, services , formations, logiciels (image)
+
+integrer les liens des reseaux sociaux personnels 
+
+sur les details des services produit etc, mettre des cards bootstrap avec iamges correspondant 
+
+mettre en cache les pages du site 
+
+formations, services et logiciels seront des render sf6
+
+a l envoie d'un message ou newsletter un mail automatique sera envoyé au concerné 
+
+trouver un bon slogan pour hero 
+
+travailler l icone en transparent 
+
+integrer les sweetalerte pour confirmation des actions 
+
+a proposde nous de hero renvoie sur qsn 
+mettre une police particuliere pour les elements de menu 
+
+le comentaire de hero aussi sera en police particulière 
