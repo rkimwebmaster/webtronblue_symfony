@@ -31,6 +31,14 @@ class Contact
     #[ORM\Column(nullable: true)]
     private ?\DateTimeImmutable $updatedAt = null;
 
+    public function __construct($nom,$email,$sujet,$message){
+        $this->nom=$nom;
+        $this->email=$email;
+        $this->sujet=$sujet;
+        $this->message=$message;
+        $this->createdAt=new \DateTimeImmutable();
+    }
+
     public function getId(): ?int
     {
         return $this->id;

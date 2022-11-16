@@ -25,6 +25,12 @@ class NewsLetter
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $ipAdresse = null;
 
+    public function __construct($email)
+    {
+        $this->email=$email;
+        $this->createdAt=new \DateTimeImmutable();
+    }
+
     public function getId(): ?int
     {
         return $this->id;
